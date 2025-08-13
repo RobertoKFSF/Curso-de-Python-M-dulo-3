@@ -5,3 +5,4 @@ for n in numero:
     print(f'{n}', end=' ')
 print(f'\nO maior é {max(numero)}')
 print(f'O menor é {min(numero)}')
+print('FIM DO PROGRAMA')
