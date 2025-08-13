@@ -9,3 +9,4 @@ for pos in range(0, len(lista)):
         print(f'{lista[pos]:.<30}', end='')
     else:
         print(f'R${lista[pos]:>7.2f}')
+print('FIM DO PROGRAMA')
