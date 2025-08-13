@@ -8,3 +8,4 @@ for pos, c in enumerate (time):
         print(f"O fluminense está na posição {pos+1}")
         break
 print(f'O fluminense está na posição {time.index("Fluminense")+1}')
+print('FIM DO PROGRAMA')

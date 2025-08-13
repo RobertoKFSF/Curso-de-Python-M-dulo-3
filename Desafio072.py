@@ -8,3 +8,4 @@ while True:
         break
     print('Tente novamente.', end=(' '))
 print (numero[num])
+print('FIM DO PROGRAMA')
