@@ -22,18 +22,11 @@ while True:
         print('PÔ')
         sleep(0.2)
         print('=-'*30)
-        if jogador == 'PEDRA':
-            print('O jogador escolheu Pedra')
-        elif jogador == 'PAPEL':
-            print('O jogador escolheu Papel')
-        elif jogador == 'TESOURA':
-            print('O jogador escolheu Tesoura')
-        if bot == 'PEDRA':
-            print('O bot escolheu Pedra')
-        elif bot == 'PAPEL':
-            print('O bot escolheu Papel')
-        elif bot == 'TESOURA':
-            print('O bot escolheu Tesoura')
+        sleep(0.3)
+        print(f'O jogador jogou {jogador}')
+        sleep(0.6)
+        print(f'O bot jogou {bot}')
+
         if jogador == bot:
             print('EMPATE')
             print('Digite novamente outra jogada, ', end='')
